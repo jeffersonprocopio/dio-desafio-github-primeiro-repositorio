@@ -1,0 +1,35 @@
+Comandos para o Github:
+git remote add (apelido para o link oringin) (condição) – adiciona repositório remoto
+git remote -v – lista o repostitorio remoto (github)
+git push (apelido para o link oringin) master -  empurra as alterações/arquivos para repositório remoto
+git pull - git push (apelido para o link oringin) master puxa as alterações/arquivos para repositório remoto
+
+Exemplos:
+cd – navegar entre as pastas (diretórios)
+dir/ls – listar os arquivos (diretórios)
+pwd – mostrar diretório completo (caminho)
+mkdir – criar arquivos (diretórios)
+del – deletar todos arquivos dentro da pasta
+rmdir(S / Q/) – deletar a pasta 
+echo – (hello > hello.txt) > criar arquivos (exemplo)
+cls / clear / CTRL + L – limpar o prompt de comando – CMD
+openssl sha 1 “nome do arq” – comando que verifica o código de encriptação.
+mv (mover nomearq1) ./ (para nomearq2) – comando de mover arquivos
+git -a – verificar a pasta git.
+
+Configuração Git
+
+git config --global user.
+
+Comandos específicos git:
+git init – Iniciar/Criar um repositório
+git add (incluir  estrela colocar tudo oq foi modificado)– mover arquivos (repositório) – muda o arquivo para stage para commitar
+git commit (-m) – criar um commit
+git clone – clonar repositórios
+ls -a ou dir -a – Mostra arquivos ocultos
+git status – verifica o status dos commits=
+Comandos de gerador de chave GIT hub
+ssh -keygten -t ed25519 -C (e-mail) – gerador de chave para o GIThub
+cat_id ed25519.pub – comando para verificar o conteúdo de umas das chaves geradas
+eval $(ssh-agent -s) – comando iniciar ssh (chaves)
+ssh-add id_ed25519 – comando para passar a chave gerada
